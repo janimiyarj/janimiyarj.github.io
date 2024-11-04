@@ -1,71 +1,96 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #F3E5F5;
+    background-color: #FFFFFF;
     color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #BA68C8;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     text-align: center;
-    padding: 2rem;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    margin: 0;
+/* Navbar styling */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
 }
 
-nav {
-    margin-top: 1rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    margin: 0 15px;
+.logo {
+    font-size: 24px;
     font-weight: bold;
-    font-size: 1.2rem;
+    color: #6A1B9A; /* Purple color for logo */
 }
 
-.intro, .key-skills, .about-me, .more-about-me {
-    padding: 2rem;
-    text-align: center;
-    max-width: 800px;
-    margin: auto;
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-h2 {
-    color: #6A1B9A;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
+.nav-links li a {
+    text-decoration: none;
     font-size: 1.1rem;
-    margin: 0.3rem 0;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
 }
 
-blockquote {
-    font-style: italic;
-    color: #6A1B9A;
-    margin: 1rem 0;
+.nav-links li a.active {
+    background-color: #6A1B9A; /* Active purple background */
+    color: #FFFFFF;
 }
 
-footer {
-    background-color: #BA68C8;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+.nav-links li a:hover {
+    background-color: #E0E0E0; /* Light gray on hover */
 }
 
-footer a img {
-    margin: 0 10px;
+.theme-toggle {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Main Content styling */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #6A1B9A; /* Purple color for name */
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.description strong {
+    color: #6A1B9A; /* Purple color for highlighted name */
 }
