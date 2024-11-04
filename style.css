@@ -1,10 +1,4 @@
 /* General styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
@@ -12,8 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -24,14 +18,16 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    position: absolute;
+    position: fixed;
     top: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #6A1B9A; /* Purple color for logo */
+    color: #6A1B9A;
 }
 
 .nav-links {
@@ -50,12 +46,12 @@ body {
 }
 
 .nav-links li a.active {
-    background-color: #6A1B9A; /* Active purple background */
+    background-color: #6A1B9A;
     color: #FFFFFF;
 }
 
 .nav-links li a:hover {
-    background-color: #E0E0E0; /* Light gray on hover */
+    background-color: #E0E0E0;
 }
 
 .theme-toggle {
@@ -65,17 +61,13 @@ body {
 
 /* Main Content styling */
 .main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 100px;
 }
 
 .main-content h1 {
     font-size: 4rem;
     font-weight: bold;
-    color: #6A1B9A; /* Purple color for name */
+    color: #6A1B9A;
 }
 
 .subtitle {
@@ -92,5 +84,49 @@ body {
 }
 
 .description strong {
-    color: #6A1B9A; /* Purple color for highlighted name */
+    color: #6A1B9A;
+}
+
+/* Section styling */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #6A1B9A;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+blockquote {
+    font-style: italic;
+    color: #6A1B9A;
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #BA68C8;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a img {
+    margin: 0 10px;
 }
