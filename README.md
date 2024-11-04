@@ -113,7 +113,7 @@ src="https://media.licdn.com/dms/image/C4D12AQESj72-s5gEKg/article-cover_image-s
 ---
 
 ## Blog
-I write data science articles to share my insights and learning. Visit my [Medium Profile]([https://medium.com/](https://medium.com/@jshaik2452)) for detailed blogs.
+I write data science articles to share my insights and learning. Visit my [Medium Profile]([https://medium.com/@jshaik2452]) for detailed blogs.
 
 ---
 
