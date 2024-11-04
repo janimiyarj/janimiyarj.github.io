@@ -10,7 +10,25 @@
 ---
 
 ## About Me
-I am a data scientist and AI enthusiast with experience in data science, machine learning, and natural language processing. My focus is on developing robust machine learning models, handling big data, and leveraging AI for meaningful insights.
+<h1 align="center">Hello 👋, I'm Jani Miya Shaik</h1>
+<img align='right' alt='Coding width = '400' 
+src="https://media.licdn.com/dms/image/C4D12AQESj72-s5gEKg/article-cover_image-shrink_720_1280/0/1626753867110?e=2147483647&v=beta&t=JOALVxWjySgR37iCdRMhNGmpCyYYDXlPdWk212JXdII"><br>
+
+<br>
+
+<div align="center">
+
+### Data Scientist | Data Analyst | Machine Learning enthusiast
+
+</div>
+
+### Welcome to my Git profile! 
+<p>I'm Jani Miya Shaik, a highly motivated and passionate Data Scientist with a strong background in Machine learning and Artificial intelligence. With a keen interest in solving complex problems using data-driven approaches, I strive to make a positive impact through innovative and insightful data analysis </p>
+<br>
+<p>As a Data Scientist, I specialize in developing and implementing machine learning algorithms and models to extract valuable insights from large datasets. I have hands-on experience with various statistical modeling techniques, predictive modeling, and data visualization tools. Currently working on Natural language processing (NLP) and Deep learning, allowing me to tackle diverse challenges across industries.</p>
+<br>
+<p>I am constantly seeking opportunities to expand my knowledge and stay up-to-date with the latest advancements in the field of data science. I am an avid learner and enjoy exploring new technologies and methodologies to enhance my skill set. To stay connected with the data science community, I actively participate in data science meetups and workshops.</p>
+<br>
 
 ---
 
@@ -95,7 +113,7 @@ I am a data scientist and AI enthusiast with experience in data science, machine
 ---
 
 ## Blog
-I write data science articles to share my insights and learning. Visit my [Medium Profile](https://medium.com/) for detailed blogs.
+I write data science articles to share my insights and learning. Visit my [Medium Profile]([https://medium.com/](https://medium.com/@jshaik2452)) for detailed blogs.
 
 ---
 
