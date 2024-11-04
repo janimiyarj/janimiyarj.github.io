@@ -130,3 +130,33 @@ footer {
 footer a img {
     margin: 0 10px;
 }
+
+/* Skills section styling */
+.skills-list {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-item h2 {
+    color: #6A1B9A;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+}
+
