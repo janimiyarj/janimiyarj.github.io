@@ -7,33 +7,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Jani Miya Shaik</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="#" class="theme-toggle">&#9790;</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
         <h1>Projects</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="experience.html">Experience</a>
-            <a href="education.html">Education</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-        </nav>
-    </header>
+        <p>Here are some of the projects I’ve worked on that showcase my skills in data science, machine learning, and data visualization.</p>
+    </div>
 
-    <section class="content">
-        <h2>Glaucoma Detection using Generative Adversarial Networks (GANs)</h2>
-        <p>Trained a classification model using GANs to detect glaucoma in images.</p>
-        <p><strong>Technology Stack:</strong> TensorFlow, Recurrent neural networks</p>
+    <!-- Projects Section -->
+    <section class="projects-list">
+        <h2>Featured Projects</h2>
 
-        <h2>Tourism Analysis</h2>
-        <p>Built 3D visualizations with ArcGIS to analyze city affordability and visitor demographics.</p>
-        <p><strong>Technology Stack:</strong> Python, R, ArcGIS, Tableau, Power BI</p>
+        <div class="project-item">
+            <h3>Glaucoma Detection using GANs</h3>
+            <p>Developed a GAN-based classification model to detect glaucoma in images with high accuracy.</p>
+        </div>
 
-        <h2>AI False Image Identification</h2>
-        <p>Developed a ResNet50-based AI detector, achieving 92.2% accuracy in distinguishing real and generated images.</p>
-        <p><strong>Technology Stack:</strong> TensorFlow, Convolutional Neural Network (CNN)</p>
+        <div class="project-item">
+            <h3>Tourism Analysis</h3>
+            <p>Built 3D visualizations with ArcGIS to analyze city affordability and visitor demographics.</p>
+        </div>
 
-        <h2>Movie Review Sentiment Analysis Engine</h2>
-        <p>Created a sentiment analysis model using NLTK, achieving 63% accuracy in analyzing movie reviews.</p>
-        <p><strong>Technology Stack:</strong> NLP, Text Analysis, Model Training</p>
+        <div class="project-item">
+            <h3>AI False Image Identification</h3>
+            <p>Created an AI model to detect algorithmically generated images using ResNet50.</p>
+        </div>
+
+        <div class="project-item">
+            <h3>Movie Review Sentiment Analysis</h3>
+            <p>Engineered a sentiment analysis model using NLP techniques to analyze movie reviews.</p>
+        </div>
     </section>
+
+    <!-- Footer with Social Links -->
+    <footer>
+        <p>Connect with me on:</p>
+        <div>
+            <a href="https://linkedin.com/in/jani-miya-shaik/" target="_blank">
+                <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/janimiyarj" target="_blank">
+                <img src="https://img.shields.io/badge/GitHub-Portfolio-lightgrey?logo=github" alt="GitHub">
+            </a>
+            <a href="mailto:janimiyask72@gmail.com">
+                <img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail" alt="Email">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
