@@ -69,6 +69,31 @@ body {
     cursor: pointer;
 }
 
+/* Download Button Styling */
+.btn-download {
+    display: inline-block;
+    background-color: #6A1B9A;
+    color: #FFF;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-download i {
+    margin-right: 10px;
+}
+
+.btn-download:hover {
+    background-color: #FFD700;
+    color: #001f3f;
+    transform: translateY(-3px);
+}
+
+
 /* Main Content */
 .main-content {
     margin-top: 100px;
