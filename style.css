@@ -162,6 +162,69 @@ body {
     font-size: 1rem;
     color: #555;
 }
+
+/* Journey Map Section */
+.journey-map {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.journey-map h2 {
+    font-size: 2.5rem;
+    color: #6A1B9A;
+    margin-bottom: 20px;
+}
+
+.timeline {
+    position: relative;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background: #6A1B9A;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+.timeline-item {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.timeline-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-item i {
+    font-size: 2.5rem;
+    color: #6A1B9A;
+    margin-bottom: 10px;
+}
+
+.timeline-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
 /* Experience Section */
 .experience-list {
     background: #f8f9fa;
