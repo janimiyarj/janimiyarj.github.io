@@ -145,6 +145,46 @@ body {
     color: #333;
 }
 
+/* Experience Section */
+.experience-list {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.experience-item {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-item i {
+    font-size: 2rem;
+    color: #6A1B9A;
+    margin-bottom: 10px;
+}
+
+.experience-item h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
 /* Footer */
 footer {
     background-color: #001f3f;
