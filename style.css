@@ -184,6 +184,55 @@ footer a img {
     color: #333;
     margin: 0;
 }
+
+/* Key Skills Section */
+.key-skills {
+    background: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.key-skills h2 {
+    font-size: 2.5rem;
+    color: #6a1b9a;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.skill-card {
+    background: white;
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: #6a1b9a;
+}
+
+.skill-card i {
+    font-size: 2rem;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+.skill-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
 /* Experience section styling */
 .experience-list {
     max-width: 800px;
