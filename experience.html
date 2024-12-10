@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experience - Jani Miya Shaik</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,67 +18,78 @@
             <li><a href="education.html">Education</a></li>
             <li><a href="skills.html">Skills</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="#" class="theme-toggle">&#9790;</a></li>
+            <li><a href="#" class="theme-toggle"><i class="fas fa-moon"></i></a></li>
         </ul>
     </nav>
 
     <!-- Main Content -->
-    <div class="main-content">
+    <header class="main-content">
         <h1>Professional Experience</h1>
-        <p>Here is an overview of my professional experience in data science, machine learning, and NLP.</p>
-    </div>
+        <p class="subtitle">An overview of my professional journey in data science, machine learning, and NLP</p>
+    </header>
 
     <!-- Experience Section -->
     <section class="experience-list">
         <div class="experience-item">
-            <h2>LLM & NLP Research Specialist | Food and Nutrition Lab, USA</h2>
-            <p>Developed an end-to-end data pipeline using Google Cloud (GCS, Dataflow, BigQuery, Vertex AI) to securely ingest, preprocess, and transform raw food-related documents, enabling high-quality data preparation for machine learning models. Implemented advanced data extraction and quality assessment workflows leveraging Google Document AI’s NLP and OCR, enhancing accuracy in structured data extraction and streamlining feature engineering with Vertex AI’s Feature Store.</p>
+            <i class="fas fa-flask"></i>
+            <h2>LLM & NLP Research Specialist</h2>
+            <p><strong>Organization:</strong> Food and Nutrition Lab, USA</p>
+            <p>Developed an end-to-end data pipeline using Google Cloud (GCS, Dataflow, BigQuery, Vertex AI) to securely ingest, preprocess, and transform raw food-related documents, enabling high-quality data preparation for machine learning models.</p>
         </div>
         
         <div class="experience-item">
-            <h2>AI Research Assistant(LLMs & NLP) | AIForBusinessLabs, USA</h2>
-            <p>Designed advanced large language models (LLMs) to analyze gene expression and tissue-specific data, improving biological data interpretation and predictive accuracy. Utilized NLP techniques, such as transformers and BERT, to extract data from biomedical literature and genomic datasets, enhancing gene-disease association studies</p>
+            <i class="fas fa-dna"></i>
+            <h2>AI Research Assistant</h2>
+            <p><strong>Organization:</strong> AIForBusinessLabs, USA</p>
+            <p>Designed advanced large language models (LLMs) to analyze gene expression and tissue-specific data, improving biological data interpretation and predictive accuracy.</p>
         </div>
 
         <div class="experience-item">
-            <h2>Data Science Intern | Topcon Healthcare, San Diego, USA</h2>
-            <p>Optimized clinical data retrieval, developed predictive models, and created Flask interfaces to integrate machine learning models, enhancing scalability and efficiency</p>
+            <i class="fas fa-briefcase"></i>
+            <h2>Data Science Intern</h2>
+            <p><strong>Organization:</strong> Topcon Healthcare, San Diego, USA</p>
+            <p>Optimized clinical data retrieval, developed predictive models, and created Flask interfaces to integrate machine learning models, enhancing scalability and efficiency.</p>
         </div>
 
         <div class="experience-item">
-            <h2>Graduate Teaching Assistant | San Diego State University, USA</h2>
-            <p>Guided 27 students in hands-on data science projects, teaching data cleaning, analysis, and visualization techniques with Python and Tableau</p>
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h2>Graduate Teaching Assistant</h2>
+            <p><strong>Institution:</strong> San Diego State University, USA</p>
+            <p>Guided 27 students in hands-on data science projects, teaching data cleaning, analysis, and visualization techniques with Python and Tableau.</p>
         </div>
 
         <div class="experience-item">
-            <h2>Data Platform Software Engineer | Micron Technology, India</h2>
-            <p>Led the development of Big Data pipelines, achieving a 60% growth in efficiency and enabling real-time insights through business intelligence dashboards</p>
+            <i class="fas fa-server"></i>
+            <h2>Data Platform Software Engineer</h2>
+            <p><strong>Organization:</strong> Micron Technology, India</p>
+            <p>Led the development of Big Data pipelines, achieving a 60% growth in efficiency and enabling real-time insights through business intelligence dashboards.</p>
         </div>
 
         <div class="experience-item">
-            <h2>Data Science Intern | Technocolabs, India</h2>
-            <p>Managed a collaborative project on intraday trading, applying machine learning techniques and developing an LSTM model that achieved 98% accuracy in stock price forecasting, along with managing exploratory data analysis and Flask deployment</p>
+            <i class="fas fa-chart-line"></i>
+            <h2>Data Science Intern</h2>
+            <p><strong>Organization:</strong> Technocolabs, India</p>
+            <p>Managed a collaborative project on intraday trading, applying machine learning techniques and developing an LSTM model that achieved 98% accuracy in stock price forecasting.</p>
         </div>
 
         <div class="experience-item">
-            <h2>Data Science Intern | Cognifront, India</h2>
-            <p> Improved loan prediction accuracy by optimizing the Random Forest algorithm, achieving an 84% accuracy rate through precision, recall, and F1 score evaluation, providing actionable insights for decision-making</p>
+            <i class="fas fa-laptop-code"></i>
+            <h2>Data Science Intern</h2>
+            <p><strong>Organization:</strong> Cognifront, India</p>
+            <p>Improved loan prediction accuracy by optimizing the Random Forest algorithm, achieving an 84% accuracy rate through precision, recall, and F1 score evaluation.</p>
         </div>
     </section>
 
-    <!-- Footer with Social Links -->
+    <!-- Footer -->
     <footer>
-        <p>Connect with me on:</p>
-        <div>
-            <a href="https://linkedin.com/in/jani-miya-shaik/" target="_blank">
-                <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin" alt="LinkedIn">
-            </a>
-            <a href="https://github.com/janimiyarj" target="_blank">
-                <img src="https://img.shields.io/badge/GitHub-Portfolio-lightgrey?logo=github" alt="GitHub">
-            </a>
-            <a href="mailto:janimiyask72@gmail.com">
-                <img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail" alt="Email">
-            </a>
+        <div class="container">
+            <p>Connect with me on:</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/jani-miya-shaik/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/janimiyarj" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:janimiyask72@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2024 Jani Miya Shaik. All rights reserved.</p>
         </div>
     </footer>
 </body>
